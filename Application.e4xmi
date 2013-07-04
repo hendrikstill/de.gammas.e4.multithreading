@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<application:Application xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:advanced="http://www.eclipse.org/ui/2010/UIModel/application/ui/advanced" xmlns:application="http://www.eclipse.org/ui/2010/UIModel/application" xmlns:basic="http://www.eclipse.org/ui/2010/UIModel/application/ui/basic" xmlns:menu="http://www.eclipse.org/ui/2010/UIModel/application/ui/menu" xmi:id="_LN9-AOR_EeKgQLEolSY1lw" elementId="org.eclipse.e4.ide.application" bindingContexts="_LN9-CeR_EeKgQLEolSY1lw">
+  <children xsi:type="basic:TrimmedWindow" xmi:id="_LN9-AeR_EeKgQLEolSY1lw" label="de.gammas.e4.multithreading" width="500" height="400">
+    <children xsi:type="advanced:PerspectiveStack" xmi:id="_LN-lH-R_EeKgQLEolSY1lw">
+      <children xsi:type="advanced:Perspective" xmi:id="_LN-lIOR_EeKgQLEolSY1lw">
+        <children xsi:type="basic:PartSashContainer" xmi:id="_LN-lIeR_EeKgQLEolSY1lw">
+          <children xsi:type="basic:PartStack" xmi:id="_LN-lIuR_EeKgQLEolSY1lw">
+            <children xsi:type="basic:Part" xmi:id="_LN_MIOR_EeKgQLEolSY1lw" contributionURI="bundleclass://de.gammas.e4.multithreading/de.gammas.e4.multithreading.parts.SamplePart" label="Sample Part"/>
+          </children>
+        </children>
+      </children>
+    </children>
+    <mainMenu xmi:id="_LN-lGOR_EeKgQLEolSY1lw" elementId="menu:org.eclipse.ui.main.menu">
+      <children xsi:type="menu:Menu" xmi:id="_LN-lGeR_EeKgQLEolSY1lw" label="File">
+        <children xsi:type="menu:HandledMenuItem" xmi:id="_LN-lGuR_EeKgQLEolSY1lw" label="Open" iconURI="platform:/plugin/de.gammas.e4.multithreading/icons/sample.gif" command="_LN9-EOR_EeKgQLEolSY1lw"/>
+        <children xsi:type="menu:HandledMenuItem" xmi:id="_LN-lG-R_EeKgQLEolSY1lw" label="Save" iconURI="platform:/plugin/de.gammas.e4.multithreading/icons/save_edit.gif" command="_LN-lEuR_EeKgQLEolSY1lw"/>
+        <children xsi:type="menu:HandledMenuItem" xmi:id="_LN-lHOR_EeKgQLEolSY1lw" label="Quit" command="_LN9-DOR_EeKgQLEolSY1lw"/>
+        <children xsi:type="menu:HandledMenuItem" xmi:id="_FCUeoOSAEeKgQLEolSY1lw" elementId="de.gammas.e4.multithreading.handledmenuitem.0" label="Refresh" command="_RpDLEOR_EeKgQLEolSY1lw"/>
+      </children>
+      <children xsi:type="menu:Menu" xmi:id="_LN-lHeR_EeKgQLEolSY1lw" label="Help">
+        <children xsi:type="menu:HandledMenuItem" xmi:id="_LN-lHuR_EeKgQLEolSY1lw" label="About" command="_LN-lFeR_EeKgQLEolSY1lw"/>
+      </children>
+    </mainMenu>
+    <trimBars xmi:id="_LN_MIeR_EeKgQLEolSY1lw">
+      <children xsi:type="menu:ToolBar" xmi:id="_LN_MIuR_EeKgQLEolSY1lw" elementId="toolbar:org.eclipse.ui.main.toolbar">
+        <children xsi:type="menu:HandledToolItem" xmi:id="_LN_MI-R_EeKgQLEolSY1lw" iconURI="platform:/plugin/de.gammas.e4.multithreading/icons/sample.gif" command="_LN9-EOR_EeKgQLEolSY1lw"/>
+        <children xsi:type="menu:HandledToolItem" xmi:id="_LN_MJOR_EeKgQLEolSY1lw" iconURI="platform:/plugin/de.gammas.e4.multithreading/icons/save_edit.gif" command="_LN-lEuR_EeKgQLEolSY1lw"/>
+      </children>
+    </trimBars>
+  </children>
+  <handlers xmi:id="_LN9-DeR_EeKgQLEolSY1lw" elementId="de.gammas.e4.multithreading.handler.quitCommand" contributionURI="bundleclass://de.gammas.e4.multithreading/de.gammas.e4.multithreading.handlers.QuitHandler" command="_LN9-DOR_EeKgQLEolSY1lw"/>
+  <handlers xmi:id="_LN-lEOR_EeKgQLEolSY1lw" elementId="de.gammas.e4.multithreading.handler.openCommand" contributionURI="bundleclass://de.gammas.e4.multithreading/de.gammas.e4.multithreading.handlers.OpenHandler" command="_LN9-EOR_EeKgQLEolSY1lw"/>
+  <handlers xmi:id="_LN-lE-R_EeKgQLEolSY1lw" elementId="de.gammas.e4.multithreading.handler.saveCommand" contributionURI="bundleclass://de.gammas.e4.multithreading/de.gammas.e4.multithreading.handlers.SaveHandler" command="_LN-lEuR_EeKgQLEolSY1lw"/>
+  <handlers xmi:id="_LN-lFuR_EeKgQLEolSY1lw" elementId="de.gammas.e4.multithreading.handler.aboutCommand" contributionURI="bundleclass://de.gammas.e4.multithreading/de.gammas.e4.multithreading.handlers.AboutHandler" command="_LN-lFeR_EeKgQLEolSY1lw"/>
+  <handlers xmi:id="_Uf_jAOR_EeKgQLEolSY1lw" elementId="de.gammas.e4.multithreading.handler.0" contributionURI="bundleclass://de.gammas.e4.multithreading/de.gammas.e4.multithreading.handlers.RefreshCommand" command="_RpDLEOR_EeKgQLEolSY1lw"/>
+  <bindingTables xmi:id="_LN9-DuR_EeKgQLEolSY1lw" bindingContext="_LN9-CeR_EeKgQLEolSY1lw">
+    <bindings xmi:id="_LN9-D-R_EeKgQLEolSY1lw" keySequence="M1+Q" command="_LN9-DOR_EeKgQLEolSY1lw"/>
+    <bindings xmi:id="_LN-lEeR_EeKgQLEolSY1lw" keySequence="M1+O" command="_LN9-EOR_EeKgQLEolSY1lw"/>
+    <bindings xmi:id="_LN-lFOR_EeKgQLEolSY1lw" keySequence="M1+S" command="_LN-lEuR_EeKgQLEolSY1lw"/>
+    <bindings xmi:id="_LN-lF-R_EeKgQLEolSY1lw" keySequence="M1+A" command="_LN-lFeR_EeKgQLEolSY1lw"/>
+  </bindingTables>
+  <rootContext xmi:id="_LN9-CeR_EeKgQLEolSY1lw" elementId="org.eclipse.ui.contexts.dialogAndWindow" name="In Dialog and Windows">
+    <children xmi:id="_LN9-CuR_EeKgQLEolSY1lw" elementId="org.eclipse.ui.contexts.window" name="In Windows"/>
+    <children xmi:id="_LN9-C-R_EeKgQLEolSY1lw" elementId="org.eclipse.ui.contexts.dialog" name="In Dialogs"/>
+  </rootContext>
+  <commands xmi:id="_LN9-DOR_EeKgQLEolSY1lw" elementId="org.eclipse.ui.file.exit" commandName="quitCommand"/>
+  <commands xmi:id="_LN9-EOR_EeKgQLEolSY1lw" elementId="de.gammas.e4.multithreading.open" commandName="openCommand"/>
+  <commands xmi:id="_LN-lEuR_EeKgQLEolSY1lw" elementId="org.eclipse.ui.file.save" commandName="saveCommand"/>
+  <commands xmi:id="_LN-lFeR_EeKgQLEolSY1lw" elementId="org.eclipse.ui.help.aboutAction" commandName="aboutCommand"/>
+  <commands xmi:id="_RpDLEOR_EeKgQLEolSY1lw" elementId="de.gammas.e4.multithreading.command.0" commandName="refreshCommand"/>
+  <addons xmi:id="_LN9-AuR_EeKgQLEolSY1lw" elementId="org.eclipse.e4.core.commands.service" contributionURI="bundleclass://org.eclipse.e4.core.commands/org.eclipse.e4.core.commands.CommandServiceAddon"/>
+  <addons xmi:id="_LN9-A-R_EeKgQLEolSY1lw" elementId="org.eclipse.e4.ui.contexts.service" contributionURI="bundleclass://org.eclipse.e4.ui.services/org.eclipse.e4.ui.services.ContextServiceAddon"/>
+  <addons xmi:id="_LN9-BOR_EeKgQLEolSY1lw" elementId="org.eclipse.e4.ui.bindings.service" contributionURI="bundleclass://org.eclipse.e4.ui.bindings/org.eclipse.e4.ui.bindings.BindingServiceAddon"/>
+  <addons xmi:id="_LN9-BeR_EeKgQLEolSY1lw" elementId="org.eclipse.e4.ui.workbench.commands.model" contributionURI="bundleclass://org.eclipse.e4.ui.workbench/org.eclipse.e4.ui.internal.workbench.addons.CommandProcessingAddon"/>
+  <addons xmi:id="_LN9-BuR_EeKgQLEolSY1lw" elementId="org.eclipse.e4.ui.workbench.handler.model" contributionURI="bundleclass://org.eclipse.e4.ui.workbench/org.eclipse.e4.ui.internal.workbench.addons.HandlerProcessingAddon"/>
+  <addons xmi:id="_LN9-B-R_EeKgQLEolSY1lw" elementId="org.eclipse.e4.ui.workbench.contexts.model" contributionURI="bundleclass://org.eclipse.e4.ui.workbench/org.eclipse.e4.ui.internal.workbench.addons.ContextProcessingAddon"/>
+  <addons xmi:id="_LN9-COR_EeKgQLEolSY1lw" elementId="org.eclipse.e4.ui.workbench.bindings.model" contributionURI="bundleclass://org.eclipse.e4.ui.workbench.swt/org.eclipse.e4.ui.workbench.swt.util.BindingProcessingAddon"/>
+</application:Application>
